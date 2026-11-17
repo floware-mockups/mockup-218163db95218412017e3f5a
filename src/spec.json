@@ -1,0 +1,217 @@
+{
+  "title": "Catalogo dei corsi di formazione",
+  "description": "Prototipo navigabile per consultare i corsi interni, verificare date e posti disponibili e registrare nuove proposte formative.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo e delle disponibilità formative.",
+      "metrics": [
+        {
+          "label": "Corsi a catalogo",
+          "value": "12"
+        },
+        {
+          "label": "In programma",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "64"
+        },
+        {
+          "label": "Docenti coinvolti",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Gestione dei progetti",
+          "Lumo Riva",
+          "Atelier Nubi",
+          "12/05/2026",
+          "13/05/2026",
+          "8"
+        ],
+        [
+          "Comunicazione chiara",
+          "Vela Neri",
+          "Officina Quarzo",
+          "19/05/2026",
+          "19/05/2026",
+          "6"
+        ],
+        [
+          "Strumenti digitali",
+          "Nubi Sera",
+          "Laboratorio Brina",
+          "26/05/2026",
+          "27/05/2026",
+          "10"
+        ],
+        [
+          "Scrittura efficace",
+          "Milo Duna",
+          "Studio Aster",
+          "03/06/2026",
+          "03/06/2026",
+          "5"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Lira Vento",
+          "Casa Loto",
+          "09/06/2026",
+          "10/06/2026",
+          "7"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Tabella filtrabile dei corsi con docente, date e capienza residua.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [
+        [
+          "Gestione dei progetti",
+          "Lumo Riva",
+          "Atelier Nubi",
+          "12/05/2026",
+          "13/05/2026",
+          "8"
+        ],
+        [
+          "Comunicazione chiara",
+          "Vela Neri",
+          "Officina Quarzo",
+          "19/05/2026",
+          "19/05/2026",
+          "6"
+        ],
+        [
+          "Strumenti digitali",
+          "Nubi Sera",
+          "Laboratorio Brina",
+          "26/05/2026",
+          "27/05/2026",
+          "10"
+        ],
+        [
+          "Scrittura efficace",
+          "Milo Duna",
+          "Studio Aster",
+          "03/06/2026",
+          "03/06/2026",
+          "5"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Lira Vento",
+          "Casa Loto",
+          "09/06/2026",
+          "10/06/2026",
+          "7"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Timo Alba",
+          "Atelier Nubi",
+          "16/06/2026",
+          "16/06/2026",
+          "4"
+        ],
+        [
+          "Presentazioni essenziali",
+          "Ena Quiete",
+          "Officina Quarzo",
+          "22/06/2026",
+          "23/06/2026",
+          "9"
+        ],
+        [
+          "Pianificazione personale",
+          "Rivo Cedro",
+          "Laboratorio Brina",
+          "30/06/2026",
+          "30/06/2026",
+          "3"
+        ],
+        [
+          "Analisi dei processi",
+          "Sola Mirto",
+          "Studio Aster",
+          "07/07/2026",
+          "08/07/2026",
+          "6"
+        ],
+        [
+          "Facilitazione degli incontri",
+          "Nilo Lume",
+          "Casa Loto",
+          "14/07/2026",
+          "14/07/2026",
+          "8"
+        ],
+        [
+          "Condivisione delle conoscenze",
+          "Vera Pino",
+          "Atelier Nubi",
+          "21/07/2026",
+          "22/07/2026",
+          "5"
+        ],
+        [
+          "Basi di progettazione",
+          "Daro Fiore",
+          "Officina Quarzo",
+          "28/07/2026",
+          "29/07/2026",
+          "7"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-corso",
+      "title": "Aggiungi un corso",
+      "description": "Registra una proposta formativa con docente, periodo e posti disponibili.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili"
+      ]
+    }
+  ]
+}
